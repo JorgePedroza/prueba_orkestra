@@ -1,0 +1,74 @@
+/* globales */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,500,700');
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    background-color: rgb(140, 152, 172);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*Sistema de tamaños*/
+
+h1 {
+    font-size: 3.5rem;
+
+    @include adaptar(768px) {
+        font-size: 5.2rem;
+
+    }
+
+}
+
+h2 {
+    font-size: 2.5rem;
+
+    @include adaptar(768px) {
+        font-size: 3rem;
+
+    }
+}
+
+h3 {
+    font-size: 2rem;
+
+    @include adaptar(768px) {
+        font-size: 2.5rem;
+
+    }
+}
+
+p {
+    font-size: 1.8rem;
+
+    @include adaptar(768px) {
+        font-size: 2rem;
+
+    }
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

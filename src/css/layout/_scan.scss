@@ -1,0 +1,31 @@
+.contenedor-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.contenedor-regresar {
+  flex: 20%;
+  padding-left: 2rem;
+  background-color: white;
+
+  .button-regresar {
+    background-color: white; /* Green */
+    border: none;
+    color: rgb(28, 66, 109);
+    padding-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+}
+
+.contenedor-scanner {
+  display: flex;
+  flex: 80%;
+  align-items: center;
+  justify-content: center;
+  }
+
+

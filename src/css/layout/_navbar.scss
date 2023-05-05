@@ -1,0 +1,22 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: #2e3e4e;
+  color: #fff;
+  padding: 0;
+  }
+  
+  /* LOGO */
+  .logo {
+  font-size: 32px;
+  }
+  
+
+  .contenedor-icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15rem;
+  }
